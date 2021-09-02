@@ -18,7 +18,7 @@ server.use(express.json())
 server.use(cors())
 
 server.get('/', (req, res) => {
-  res.send(`<h1>Web 45 ROCKS!</h1>`)
+  res.send(`<h1>Web 45 NEW!</h1>`)
 })
 
 server.get('/api', (req, res) => {
